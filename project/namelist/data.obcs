@@ -16,25 +16,25 @@
  useOBCSprescribe = .TRUE.,
 #
 # identify files (uncomment as needed)
-# OBEuFile = 'obcs/UVEL_east',
+ OBEuFile = 'obcs/UVEL_east',
  OBSuFile = 'obcs/UVEL_south',
  OBWuFile = 'obcs/UVEL_west',
- OBNuFile = 'obcs/UVEL_north',
+# OBNuFile = 'obcs/UVEL_north',
 #
-# OBEvFile = 'obcs/VVEL_east',
+ OBEvFile = 'obcs/VVEL_east',
  OBSvFile = 'obcs/VVEL_south',
  OBWvFile = 'obcs/VVEL_west',
- OBNvFile = 'obcs/VVEL_north',
+# OBNvFile = 'obcs/VVEL_north',
 #
-# OBEtFile = 'obcs/THETA_east',
+ OBEtFile = 'obcs/THETA_east',
  OBStFile = 'obcs/THETA_south',
  OBWtFile = 'obcs/THETA_west',
- OBNtFile = 'obcs/THETA_north',
+# OBNtFile = 'obcs/THETA_north',
 #
-# OBEsFile = 'obcs/SALT_east',
+ OBEsFile = 'obcs/SALT_east',
  OBSsFile = 'obcs/SALT_south',
  OBWsFile = 'obcs/SALT_west',
- OBNsFile = 'obcs/SALT_north',
+# OBNsFile = 'obcs/SALT_north',
 #
  &
 
