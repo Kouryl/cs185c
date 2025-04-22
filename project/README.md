@@ -20,7 +20,7 @@ The model files should be placed into the  `input` directory.
 ### Step 2: Add files to the computing cluster
 Once the input files have been created, the model files can be transferred to the computing cluster. Begin by cloning a copy of [MITgcm](https://github.com/MITgcm/MITgcm) into your scratch directory and make a folder for the configuration, .e.g.
 ```
-mkdir MITgcm/configurations/ca_upwelling
+mkdir MITgcm/configurations/coastal_alaska
 ```
 Then, use the `scp` command to send the `code`, `input`, and `namelist` directories to your configuration directory. 
 
