@@ -33,7 +33,7 @@ make depend
 make
 ```
 
-### Step 4.1: Run the model with wind
+### Step 4: Run the model
 After the compilation is complete, run the model with the wind. Move to the run directory, link everything from `input` and `code`, and the submit the job script:
 ```
 sbatch cs185c18.slm
